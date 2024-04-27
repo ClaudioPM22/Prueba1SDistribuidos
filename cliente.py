@@ -34,10 +34,16 @@ def game_status():
 if __name__ == '__main__':
     # Registrar un equipo
     register_team('Equipo A')
+    register_team('Equipo B')
 
     # Unirse a un equipo
     join_team('Equipo A', 'Jugador 1')
-
+    join_team('Equipo A', 'Jugador 2')
+    join_team('Equipo A', 'Jugador 3')
+    join_team('Equipo B', 'Jugador 1')
+    join_team('Equipo B', 'Jugador 2')
+    join_team('Equipo B', 'Jugador 3')
+    
     # Iniciar el juego
     start_game()
 
